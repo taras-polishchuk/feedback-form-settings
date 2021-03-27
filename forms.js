@@ -40,6 +40,18 @@ function forms(formSelector, modalTimerId) {
             }).finally(() => {
                 form.reset();
             });
+            
+           //Можно заменить postData при помощи библиотеки axios 
+           // axios.post('http://localhost:3000/requests', json)
+           // .then(data => {
+           //     console.log(data);
+           //     showThanksModal(message.success);
+           //     statusMessage.remove();
+           // }).catch(() => {
+           //     showThanksModal(message.failure);
+           // }).finally(() => {
+           //     form.reset();
+           // });  
 
         });
         
